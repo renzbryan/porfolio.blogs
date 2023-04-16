@@ -4,21 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Blogs</title>
     <style>
         *{padding: 0%;
             margin: 0%;
         }
         body{
             background-color: rgb(32, 32, 32);
+            display: flex;
+            justify-content: center;
         }
+
         .soon{
             display:block;
-            margin-top: 23%;
-            margin-left: 530px;
             line-height: 1;
-            position: absolute;
             text-align: center;
+            margin-top: 21%;
         }
         .soon h1{
             color: aliceblue;
@@ -29,14 +30,42 @@
             color: rgb(255, 196, 0);
             font-size: 1rem;
         }
+        .return{
+            background-color: #f0f0f0;
+            border: none;
+            border-radius: 5px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: rgb(23, 23, 23);
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        .return:hover{
+            background-color: rgb(252, 252, 252);
+            box-shadow: 1px 0px 7px 2px rgba(241, 249, 124, 0.598);
+            border-bottom-left-radius: 8px;
+            margin: 4px 2px;
+            padding: 12px 22px;
+            font-size: 18px;
+
+        }
 
     </style>
 </head>
 <body>
-    <divb class="soon">
-            <h1>Coming Soon...</h1>
-            <p>Under maintenance for a while.</p>
+    <div class="soon">
+            <h1>Coming Soon</h1>
+            <p>Under maintenance for a while.</p>    
+            <br>
+            <a href="portfolio.html" class="return">Go back</a>
     </div>
+
+    
 
 
 </body>
